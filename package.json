@@ -1,0 +1,36 @@
+{
+  "name": "github-like-cms",
+  "version": "0.0.1",
+  "description": "Little CMS using github like as backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertot-dev/github-like-cms.git"
+  },
+  "keywords": [
+    "cms",
+    "github"
+  ],
+  "author": "Alberto Tejero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albertot-dev/github-like-cms/issues"
+  },
+  "homepage": "https://github.com/albertot-dev/github-like-cms#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.7.0",
+    "markdown-it": "^13.0.1"
+  }
+}
