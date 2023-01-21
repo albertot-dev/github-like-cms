@@ -1,6 +1,6 @@
 {
   "name": "github-like-cms",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Little CMS using github like as backend",
   "main": "index.js",
   "scripts": {
