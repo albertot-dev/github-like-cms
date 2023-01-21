@@ -3,7 +3,7 @@ import {
   generatePaths,
   generatePages,
   getPostsPagination
-} from './lib'
+} from './lib/index.js'
 
 const glcms = {
   getLastPosts,
