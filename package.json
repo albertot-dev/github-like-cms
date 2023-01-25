@@ -1,10 +1,10 @@
 {
   "name": "github-like-cms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Little CMS using github like as backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,16 +21,25 @@
   },
   "homepage": "https://github.com/albertot-dev/github-like-cms#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "eslint": "^8.32.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.3.1"
   },
   "type": "module",
   "dependencies": {
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.7.0",
     "markdown-it": "^13.0.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/.jest/setEnvVars.js"
+    ],
+    "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
+    "testRegex": "/test/.*\\.(ts|js)$"
   }
 }
