@@ -1,6 +1,6 @@
 {
   "name": "github-like-cms",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Little CMS using github like as backend",
   "main": "index.js",
   "scripts": {
@@ -40,6 +40,6 @@
       "<rootDir>/.jest/setEnvVars.js"
     ],
     "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
-    "testRegex": "/test/.*\\.(ts|js)$"
+    "testRegex": "/test/.*.spec\\.(ts|js)$"
   }
 }

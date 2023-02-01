@@ -80,17 +80,7 @@ describe('generatePages', () => {
     expect(post.author.avatar).toEqual(
       'https://avatars.githubusercontent.com/u/11647193?v=4'
     )
-    expect(post.tags).toEqual([
-      {
-        color: '1d76db',
-        default: false,
-        description: '',
-        id: 5057773720,
-        name: 'angular',
-        node_id: 'LA_kwDOF5VWuM8AAAABLXeAmA',
-        url: 'https://api.github.com/repos/albertot-dev/alberto.dev/labels/angular'
-      }
-    ])
+    expect(post.tags).toEqual(['angular'])
     expect(post.image).toEqual(
       'https://user-images.githubusercontent.com/11647193/213481019-2df0bf8c-3258-4abe-ae68-2e052bcb6e2c.png'
     )
